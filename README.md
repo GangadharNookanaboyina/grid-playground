@@ -16,3 +16,4 @@ Playground class require ```width: number, height: number, cells: Array<number>`
 - ```getIndex(row: number, col: number)``` - returns the cell index.
 - ```liveNeighboursCount(row: number, col: number)``` - return count of alive cells.
 - ```next()``` - returns nothing. Advances the cells as per the rules.
+- ```new()``` - returns new ```Playground``` instance.
